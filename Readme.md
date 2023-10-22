@@ -1,3 +1,7 @@
+Author: Leslie Jacobs
+Project name: Lesjac216_PTO2309_groupA_LeslieJacobs
+
+
 This repository aims to create an attractive, interactive,accessible Resume. I am currently learning new skills @ CodeSpace on how to become a successful developer in the near by future.
 
 I am currently learning Introduction to Web.
