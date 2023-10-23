@@ -2,7 +2,7 @@ Author: Leslie Jacobs
 Project name: Lesjac216_PTO2309_groupA_LeslieJacobs
 
 
-*This repository aims to create an attractive, interactive,accessible Resume.* 
+*This repository aims to create an attractive,accessible Resume.* 
 
 
 I am currently learning Introduction to Web.
