@@ -1,3 +1,54 @@
-body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body{ 
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #3d4d55;}  
+
+h1,h4{
+    
+    text-align:left;
+    color: white;
+    height: 30px;
 }
+.nav{
+    background-color: #10232a;
+    width: 30%;
+
+    
+    
+}
+#intro{
+    width: 35%;
+    height: 100px;
+    
+}
+#Education{
+    color:black;
+    background-color:#e59d23;
+    width: 60%;
+}
+#Skills{
+    color: black;
+    background-color: #e59d23    ;
+}
+
+#Experience{
+color: black;
+    background-color: #e59d23 ;
+}
+    
+#intro{
+    text-align: left;
+}
+#section2{
+    color: black;
+}
+
+
+#socials{
+    background-color: #10232a;
+}
+#links{color: white;}
+
+
+    
+
