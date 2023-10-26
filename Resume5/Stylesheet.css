@@ -1,0 +1,108 @@
+body{ margin: 0%;
+  
+    color: white;
+    font-family:manrope;
+background-color: black;}  
+    
+    h1,h4{
+
+        color: white;
+        height: 30px;
+        
+          
+    }
+    h1{
+        font-size: 60px;
+        text-align:center;
+        padding-left: 30%;
+    }
+
+    .wrapper{
+    display: flex;
+    width:100%;
+    border-radius: 10px;
+    margin: 0%;
+    
+    
+
+    }
+
+.nav{
+        background-color: #e59d23;
+        width: 30%;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 10px;
+    
+      
+}
+
+        
+#header{ 
+    text-align:100px;
+    background-color: black;
+    width:200%;
+    text-align: center;
+    border-radius: 5px solid;
+    
+    
+
+}
+    p{
+        width: 35%;
+        height: 100px;
+        padding: 100%;
+    }
+    .section1{
+        color:black;
+        background-color:#b9b9b9;
+        width: 20%;
+        padding: 15px;
+        margin: 5px;
+        border-radius:10px ;
+        text-align:justify;
+    
+     
+    }
+    
+    #skills{
+    color: black;
+    background-color: #b9b9b9;   
+    padding:5px;
+    margin:5px ;
+    width: 20%;
+    border-radius:10px ;
+}
+    
+    .experience{
+        color: black;
+        background-color: #b9b9b9 ;
+        padding: 30px;
+        margin: 5px;
+        border-radius: 10px;
+        width: 20%;
+        text-align: justify;
+    }
+        
+    #intro{
+        text-align: left;
+    }
+
+    img{
+        border:50% solid white;
+        text-align: center;
+        border-radius: 50%;
+        
+        
+}
+
+   p{
+    
+    margin-left: 70%;
+    padding: 20px;
+    
+   } 
+.link
+{
+    color: white;
+}    
