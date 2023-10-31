@@ -1,18 +1,26 @@
 body{ 
     padding-top: 3%;
+    background-color: #423d36;
+    margin: 0%;
 
   
 }
 
 h1, h2, h3, p{
     font-family:'Manrope' sans-serif;
+ 
 
+}
+#education h2{
+    background-color: #9a684b;
+    text-align: center;
+    width: 100%;
 }
 
 
 #name{
  
-    border: 5px solid black;
+   color: white;
     display:inline-block;
     padding: 20px;
     font-size: 50px;
@@ -21,15 +29,24 @@ h1, h2, h3, p{
 #about-me{
     font-size: 25px;
     font-weight: bolder;
+    background-color: #9a684b;
+    text-align: center;
+    width: 100%;
 }
+
 
 
 .nav-link{
     display: inline-block;
     font-size: 20px;
     padding: 15px;
-    
+    margin: 5px 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
 }
+
+
 
 #navbar{
         background-color: #b9b9b9;
@@ -41,6 +58,7 @@ h1, h2, h3, p{
         top: 0;
         left: 0;
         text-align: center;
+        
       
 }
 
@@ -61,27 +79,32 @@ h1, h2, h3, p{
  
  .image-container {
     padding:10%;
-    overflow-x:visible;
-    background-color: rgb(0, 0, 0);
-    border-left: 15px solid gold ;
-    
+    overflow:visible;
+    background-color: #423d36;
+  
  }
 
  .skills{
-    color: white;
-    padding:10%;   
-    border-left: 15px solid gold;
-
+    
+padding: 10%;
+height:80pc;
+padding-top: 50%;
+    
 }
+
 .skills h2{
     font-weight: 700;
     font-size:xx-large;
+    background-color: #9a684b;
+    text-align: center;
+    width: 100%;
 }
         
 .main-image{
     border:50% solid white;
     border-radius: 50%;
     overflow-x: visible;
+ 
   
 }
 
@@ -90,6 +113,9 @@ h1, h2, h3, p{
 {
     color:black;
 } 
+#hyper-link{
+    color:wheat;
+}
 
 .contact{
     position:absolute;
@@ -102,8 +128,8 @@ h1, h2, h3, p{
     color:black;
     text-align: center;
     font-size: medium;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     font-size: 20px;
 }
 
@@ -123,15 +149,19 @@ h1, h2, h3, p{
 .column {
     float: left;
     width: 30%;
-    background-color:black;
-    border-right: 1px;
+    height: 30%;
+    background-color: white;
+    
 
   }
   .column-right {
-      width: 64%;
+      width: 65%;
       float: right;
       padding-right: 5%;
+      color: white;
   }
+ 
+  
   
   /* Clear floats after the columns */
   .row::after {
@@ -142,6 +172,7 @@ h1, h2, h3, p{
   .content {
       padding: 5%;
       overflow-wrap: normal;
+      
     
   
   }
