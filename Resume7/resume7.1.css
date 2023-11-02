@@ -119,17 +119,24 @@ padding-top: 50%;
 
 .contact{
     position:relative;
-    bottom: -80pc;
+    background-color:#423d36;
     left: 0%;
     margin: 0%;
     width: 100%;
-    border-radius: 5px;
     color:black;
     text-align: center;
     font-size: medium;
     padding-top: 2%;
     padding-bottom: 2%;
     font-size: 20px;
+}
+#column-left{
+        
+padding: 10%;
+height:80pc;
+padding-top: 50%;
+
+
 }
 
 
