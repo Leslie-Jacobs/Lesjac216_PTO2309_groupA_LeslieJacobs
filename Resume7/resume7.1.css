@@ -1,12 +1,14 @@
 body{ 
     padding-top: 3%;
     background-color: #423d36;
-    margin: 0%;
+    max-width: 1400px;
+
+
 
   
 }
 
-h1, h2, h3, p{
+h1, h2, h6, p{
     font-family:'Manrope' sans-serif;
  
 
@@ -87,8 +89,9 @@ h1, h2, h3, p{
  .skills{
     
 padding: 10%;
-height:80pc;
+height:100%;
 padding-top: 50%;
+
     
 }
 
@@ -119,17 +122,61 @@ padding-top: 50%;
 
 .contact{
     position:relative;
-    background-color:#423d36;
-    left: 0%;
-    margin: 0%;
-    width: 100%;
+    background-color:#ffff;
+    width: 118pc;
     color:black;
-    text-align: center;
-    font-size: medium;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    font-size: 20px;
+    text-align:left;
+    padding:0%;
+    font-size: 15px;
 }
+input[type=submit] {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+input[type=Reset] {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;}
+
+input[type=submit]:hover {
+        background-color: #333;
+        opacity: 0.4;
+    }
+input[type=reset]:hover {
+        background-color: #333;
+        opacity: 0.4;
+    }
+label{
+    display: inline;
+    margin-top: 2.5em;
+}
+input[type="email"],input[type=text], input[type=name] {
+    width: 50%;
+}
+        
+fieldset{
+    min-width: 200px;
+    border-radius: 6px;
+    margin: 0%;
+    padding: 1em 2em;
+    border: #ccc 1px solid;
+}
+
+legend{
+    font-size: 1.25em;
+    padding: 0.25em;
+    color: #999;
+
+}
+
 #column-left{
         
 padding: 10%;
@@ -139,17 +186,15 @@ padding-top: 50%;
 
 }
 
-
-
 .header {
     position:relative;
     width: 100%;
 }
 
 .header-text {
-    display: inline-block;
-    padding-left: 2%;
-    margin-left: 33%;
+  right: 100%;
+    margin-left: 40%;
+    float: right;
 }
 
 .column {
@@ -162,11 +207,11 @@ padding-top: 50%;
   }
   .column-right {
       width: 65%;
-      float: right;
-      padding-right: 5%;
+      float: left;
+      padding-right:5%;
       color: white;
   }
- 
+
   
   
   /* Clear floats after the columns */
@@ -179,12 +224,26 @@ padding-top: 50%;
     height: 50%;
   }
   .content {
-      padding: 5%;
+      padding-right: 80px;
+      padding-left: 80px;
       overflow-wrap: normal;
-      
-    
-  
+   
   }
+  .container{
+
+    background-color: #f2f2f2;
+    margin-left: 500px;
+    margin-right: 800px; 
+  }
+  input[type=text],select,textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 16px;
+
+    }
   
     
   
