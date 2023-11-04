@@ -85,7 +85,7 @@ h1, h2, h6, p{
  .skills{
     
 padding: 10%;
-height:1500px;
+height:850px;
 padding-top: 50%;
 
     
@@ -117,7 +117,7 @@ padding-top: 50%;
 }
 
 .contact{
-    position:absolute;
+   
     width: 118pc;
     color:black;
     text-align:left;
@@ -155,6 +155,22 @@ label{
 }
 input[type="email"],input[type=text], input[type=name] {
     width: 50%;
+    border: none;
+    display: inline-block;
+    margin: 5px  0px 22px 0px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+type[type="subject"],type[type=text]{
+    width: 50%;
+    border: none;
+    display: inline-block;
+    margin: 5px  0px 22px 0px;
+    padding: 10px;
+    border-radius: 5px;
+
 }
         
 fieldset{
@@ -267,6 +283,16 @@ padding-top: 50%;
         color: #fff
 
     }
+    /*
+    . {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: #eee;
+        border-radius: 50%;
+        }
 
 
   
