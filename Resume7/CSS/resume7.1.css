@@ -1,11 +1,11 @@
 body{ 
     padding-top: 3%;
     background-color: #423d36;
-    margin:5% 5%;
+    margin:0%;
 }
 
 h1, h2, h6, p{
-    font-family:'Manrope' sans-serif;
+    font-family:'Manrope', sans-serif;
  
 
 }
@@ -86,7 +86,7 @@ h1, h2, h6, p{
     
 padding: 10%;
 height:850px;
-padding-top: 50%;
+padding-top: 20%;
 
     
 }
@@ -123,8 +123,15 @@ padding-top: 50%;
     text-align:left;
     padding:0%;
     font-size: 15px;
+    background-color: #fff;
 }
-input[type=button] {
+.container{
+
+    background-color: #f2f2f2;
+    margin-left: 500px;
+    margin-right: 800px; 
+  }
+input[type=submit] {
     background-color: #333;
     color: #fff;
     padding: 12px 20px;
@@ -133,7 +140,7 @@ input[type=button] {
     cursor: pointer;
     border-radius: 5px;
 }
-input[type=button] {
+input[type=reset] {
     background-color: #333;
     color: #fff;
     padding: 12px 20px;
@@ -141,11 +148,11 @@ input[type=button] {
     border-radius: 4px;
     cursor: pointer;}
 
-input[type=button]:hover {
+input[type=submit]:hover {
         background-color: #333;
         opacity: 0.4;
     }
-input[type=button]:hover {
+input[type=reset]:hover {
         background-color: #333;
         opacity: 0.4;
     }
@@ -163,7 +170,7 @@ input[type="email"],input[type=text], input[type=name] {
 
 }
 
-type[type="subject"],type[type=text]{
+input[type="subject"],type[type=text]{
     width: 50%;
     border: none;
     display: inline-block;
@@ -173,20 +180,6 @@ type[type="subject"],type[type=text]{
 
 }
         
-fieldset{
-    min-width: 200px;
-    border-radius: 6px;
-    margin: 0%;
-    padding: 1em 2em;
-    border: #ccc 1px solid;
-}
-
-legend{
-    font-size: 1.25em;
-    padding: 0.25em;
-    color: #999;
-
-}
 
 #column-left{
         
@@ -240,12 +233,7 @@ padding-top: 50%;
       overflow-wrap: normal;
    
   }
-  .container{
-
-    background-color: #f2f2f2;
-    margin-left: 500px;
-    margin-right: 800px; 
-  }
+  
   input[type=text],select,textarea{
     padding: 10px;
     border: 1px solid #ccc;
@@ -271,16 +259,22 @@ padding-top: 50%;
     .fa-facebook{
         background-color: #333;
         color: #fff;
+        margin-right: 20px;
+    
     }
 
     .fa-github{
         background-color: #333;
         color: #ffff;
+        margin-left: 20px;
+        margin-right: 20px;
 
     }
     .fa-linkedin{
         background-color: #333;
-        color: #fff
+        color: #fff;
+        margin-left: 20px;
+        margin-right: 20px;
 
     }
     /*
