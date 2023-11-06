@@ -74,7 +74,7 @@ h1, h2, h6, p{
     height: 50px;
     border-radius: 50%;
     border-width: 1px;
-    border-style: solid #423d36 1px;
+    border-style:solid;
     position: fixed;
     right: 80px;
     bottom: 80px;
@@ -108,7 +108,7 @@ height: 90pc;
 }
         
 .main-image{
-    border:50% solid white;
+    border: 1px solid white;
     border-radius: 50%;
     overflow-x: visible;
  
