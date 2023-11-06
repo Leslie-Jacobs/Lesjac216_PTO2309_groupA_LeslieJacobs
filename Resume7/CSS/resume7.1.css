@@ -242,6 +242,7 @@ padding-top: 50%;
       padding-left: 80px;
       overflow-wrap: normal;
       text-align: justify;
+      margin-bottom: 0%;
    
   }
   
@@ -252,6 +253,7 @@ padding-top: 50%;
     box-sizing: border-box;
     margin-top: 10px;
     margin-bottom: 16px;
+    resize: none;
 
     } 
 
