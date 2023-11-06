@@ -69,12 +69,12 @@ h1, h2, h6, p{
 
 #back-to-top {
     color: white;
-    background-color: rgb(76, 77, 76);
+    background-color:#423d36;
     width:50px;
     height: 50px;
     border-radius: 50%;
     border-width: 1px;
-    border-style: solid;
+    border-style: solid #423d36 1px;
     position: fixed;
     right: 80px;
     bottom: 80px;
@@ -139,7 +139,7 @@ height: 90pc;
     margin-left: 500px;
     margin-right: 800px; 
   }
-input[type=submit] {
+button[type=submit] {
     background-color: #333;
     color: #fff;
     padding: 12px 20px;
@@ -148,7 +148,7 @@ input[type=submit] {
     cursor: pointer;
     border-radius: 5px;
 }
-input[type=reset] {
+button[type=reset] {
     background-color: #333;
     color: #fff;
     padding: 12px 20px;
