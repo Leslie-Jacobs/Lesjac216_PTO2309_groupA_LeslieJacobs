@@ -9,7 +9,7 @@
 
 
         <link rel="shortcut icon" type="image/x-icon" href="/Images/favicon.ico">
-        <link rel="stylesheet" href="/Resume7/resume7.1.css">
+        <link rel="stylesheet" href="/Resume7/resume7.2.css">
 <!---Google Fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +19,7 @@
 
     <body>
 <!--Header-->      
-        <div class="row" id="headrow">
+        <div class="hero-image" >
             <div class="column">
                 <div class="sidebar">
                     <div class="image-container">
@@ -34,12 +34,7 @@
                 <div class="content">
                     <div class="header-text">
                         <h1 id="name">Leslie Jacobs</h1>
-                        <p id="about-me">About Me</p>
-                            <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                            <br>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
-                            <br>minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                            <br>aliquip x ea commodo consequat.
-                        </p>
+                        
                     </div>
                 </div>
             </div>
@@ -55,6 +50,12 @@
                     <a class="fa fa-github" href="https://github.com/Leslie-Jacobs" target="_blank"></a>
                 
                           </div>
+                          <p id="about-me">About Me</p>
+                            <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                            <br>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+                            <br>minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                            <br>aliquip x ea commodo consequat.
+                        </p>
                 <h2>Skills</h2>
 <!--Skills under image-->                  
                 <ul>  
@@ -118,7 +119,7 @@
           <form action="https://formsubmit.co/lkjlesliejade@gmail.com" method="POST"></form>
        
     <fieldset>
-                <legend>Send Me a Message</legend>
+                <legend>Send a Message</legend>
         
   
   
@@ -133,41 +134,44 @@
             <br>
 <!--checkboxes-->
 
-<label for="checkbox_subject">Subject<br>
-        <input type="checkbox" checked="checked" id="checkbox_subject"  name="resumefeedback">Resume Feedback<br>
-</label>
+        <label for="checkbox_subject">Subject<br>
+                <input type="checkbox" id="checkbox_subject"  name="resumefeedback" value="none">Resume Feedback<br>
+        </label>
 
-<label for="checkbox_interview">
-        <input type="checkbox" checked="checked" id="checkbox_interview"  name="Interview">Interview<br>
-</label>
+        <label for="checkbox_interview">
+                <input type="checkbox" id="checkbox_interview"  name="Interview" value="none">Interview<br>
+        </label>
 
-<label for="checkbox_recruiter">
-        <input type="checkbox" checked="checked" id="checkbox_recruiter"  name="recruiter">Recruiter<br>
-</label>
+        <label for="checkbox_recruiter">
+                <input type="checkbox"  id="checkbox_recruiter"  name="recruiter" value="none">Recruiter<br>
+        </label>
 
  <br>
   <!--textarea for message-->              
-<label for="textarea">Your Message<br>
+            <label for="textarea">Your Message<br>
 
 <br>
-    <textarea placeholder="Your Message (optional)..." id="textarea" name="text" rows="10" cols="50" required></textarea>
-</label>
+                <textarea placeholder="Your Message (optional)..." id="textarea" name="text" rows="10" cols="50" required></textarea>
+            </label>
 
 <br> 
 
-<label for="submitbtn">    
-          <input type="button" class="submit" value="Submit" id="submitbtn">
-</label>
+            <label for="submitbtn">    
+                    <input type="button" class="submit" value="Submit" id="submitbtn">
+            </label>
 
-<label for="resetbtn">
-          <input type="button" class="reset" value="Reset" id="resetbtn">      
-</label>   
+            <label for="resetbtn">
+                    <input type="button" class="reset" value="Reset" id="resetbtn">      
+            </label>
+
     </fieldset>
-    </div>
-        </footer>
+</div>
+       
+</footer>
 
-    </body>
+   
+</body>
 
              
        
-    </html>
+</html>
