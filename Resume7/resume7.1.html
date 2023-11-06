@@ -1,6 +1,6 @@
 <!DOCTYPE html>
+<html lang="zxx">
 
-<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,7 +23,7 @@
             <div class="column">
                 <div class="sidebar">
                     <div class="image-container">
-                        <img class="main-image" src ="/Images/BW_Image.jpeg" alt="ProfessionalPhoto" width="400"  height="400">
+                        <img class="main-image" src="/Images/BW_Image.jpeg" alt="ProfessionalPhoto" width="400"  height="400">
         
                     </div>
                     
@@ -69,7 +69,7 @@
 <!--Main Content-->          
             <div class="column-right" id="education">
                 <div class="content">     
-                    <h2 id="Education">Education</h>
+                    <h2 id="Education">Education</h2>
                     Into to web at <a id="hyper-link" href="https://www.codespace.co.za/">CodeSpace Academy</a><br>
                     <br>
                     <h3>Education1</h3>
@@ -109,54 +109,62 @@
 
 
 
-        <a id="back-to-top" href="#headrow">
-            <button> ↑</button>
-        </a>
+     <button id="back-to-top">↑</button>
+        
+        
 <!--form section-->
 <footer class="contact">
     <div class="container">
           <form action="https://formsubmit.co/lkjlesliejade@gmail.com" method="POST"></form>
        
-            <fieldset>
-                <legend>Send Me Message</legend>
-           
-    <label for="name"></label>
-    <i class="fa fa-user icon"></i>
-            <input type="name" name="name" id="fname" placeholder="Enter Name..." required>
+    <fieldset>
+                <legend>Send Me a Message</legend>
+        
+  
+  
+    <label for="fname"><i class="fa fa-user icon"></i>Name</label>
+            <input type="text" name="fname" id="fname" placeholder="Enter Name">
             <br>
-           
-       <label for="email"></label>
-       <i class="fa fa-envelope icon"></i>
-            <input type="email" name="email" id="email" placeholder="Email here please..." required>
+            
+       <label for="email"> <i class="fa fa-envelope icon"></i>Email</label>
+      
+            <input type="text" name="email" id="email" placeholder="Email here" required>
             <br>
             <br>
-<!--checkboxes-->              
-    <label for="subject">Subject</label><br><br>
-    <input type="checkbox" checkbox="checked"</br>
-    <label class="contain">Resume Feedback</br>
-    
-    <input type="checkbox" checkbox="checked"</br>
-    <label class="contain">Recruiter</br>
+<!--checkboxes-->
 
-    <input type="checkbox" checkbox="checked"</br>
-    <label class="contain">Interview</br>
-    
-    
+<label for="checkbox_subject">Subject<br>
+        <input type="checkbox" checked="checked" id="checkbox-subject"  name="resumefeedback">Resume Feedback<br>
+</label>
+
+<label for="checkbox_interview">
+        <input type="checkbox" checked="checked" id="checkbox_interview"  name="Interview">Interview<br>
+</label>
+
+<label for="checkbox_recruiter">
+        <input type="checkbox" checked="checked" id="checkbox_recruiter"  name="recruiter">Recruiter<br>
+</label>
+
  <br>
   <!--textarea for message-->              
-<label for="message">Your Message</label>
-<br>
-            <textarea placeholder="Your Message (optional)..." id=message" name="message" rows="10" cols="50" required></textarea>
+<label for="textarea">Your Message<br>
 
-            <br>       
-<!--submit button-->          
-          <input type="submit" class="submit" value="Submit">
-          <input type="reset" class="reset" value="Reset">
-         
-        </form> 
-    
+<br>
+    <textarea placeholder="Your Message (optional)..." id="textarea" name="text" rows="10" cols="50" required></textarea>
+</label>
+
+<br> 
+
+<label for="submitbtn">    
+          <input type="button" class="submit" value="Submit" id="submitbtn">
+</label>
+
+<label for="resetbtn">
+          <input type="button" class="reset" value="Reset" id="resetbtn">      
+</label>   
     </fieldset>
- </footer>
+    </div>
+        </footer>
 
     </body>
 
