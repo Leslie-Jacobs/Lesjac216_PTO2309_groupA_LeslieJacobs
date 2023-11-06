@@ -98,7 +98,7 @@ h1, h2, h6, p{
 }
 
 .skills h2{
-    font-weight: 700;
+    font-weight:bold;
     font-size:xx-large;
     background-color: #9a684b;
     text-align: center;
