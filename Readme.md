@@ -1,10 +1,6 @@
 Author: Leslie Jacobs
 Project name: Lesjac216_PTO2309_groupA_LeslieJacobs
 
-
-*This repository aims to create an attractive,accessible Resume.* 
-
-
 I am currently learning Introduction to Web.
 I am currently working how to navigate my way through Git/Github ,also planning and designing my Final Capstone Project.
 
