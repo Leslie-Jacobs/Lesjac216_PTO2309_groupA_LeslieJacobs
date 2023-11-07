@@ -38,6 +38,13 @@ h1, h2, h6, p{
     font-weight: bolder;
     background-color: #9a684b;
     width: 100%;
+    text-align: center;  
+}
+#language{
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: #9a684b;
+    width: 100%;
     text-align: center;
 
     
