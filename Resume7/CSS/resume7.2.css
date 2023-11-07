@@ -23,6 +23,7 @@ h1, h2, h6, p{
  
    color: white;
     display:inline-block;
+    text-align: center;
     padding-top:50px;
     padding-bottom:50px ;
     padding-left: 100px;
@@ -66,10 +67,17 @@ h1, h2, h6, p{
         position: fixed;
         top: 0;
         left: 0;
-        text-align: center;
-        
+        text-align: center;     
       
 }
+nav a:hover{
+    color: #f1c40f;
+    border-bottom: 4px solid #f1c40f;
+    transition: 0.5s;
+    font-weight: bolder;
+font-size:x-large;}
+
+
 
 #back-to-top {
     color: white;
@@ -142,10 +150,14 @@ height: 90pc;
    
     width:auto;
     color:black;
-    text-align:left;
-    padding:0%;
+    position: relative;
+    padding:30px 40px;
     font-size: 15px;
     background-color: #fff;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+
+
 }
 .container{
 
@@ -153,20 +165,32 @@ height: 90pc;
     border-color: #494949;
     width: 35%;
     margin-left: 35%;
+    display:flexbox;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    
    
   }
-  #msg{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-margin-left: 5px;
+  #msg{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 5px;
+        background-color: #f7f7f7;
+        border-bottom:1px solid #f0f0f0;
+        padding: 20px  40px;
+        margin: 0;
+    
   }
 
 button[type=submit] {
     background-color: #333;
     color: #fff;
-    padding: 12px 20px;
+    padding: 12px 20px ;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     border-radius: 5px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 button[type=reset] {
     background-color: #333;
@@ -175,7 +199,7 @@ button[type=reset] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 10%;
+    margin-left: 30px;
 }
 
 button[type=submit]:hover {
@@ -188,27 +212,37 @@ button[type=reset]:hover {
     }
 label{
     display: inline;
-    margin-top: 2.5em;
+    margin-top: 2.5rem;
 }
 input[type="email"],input[type=text], input[type=name] {
     width: 50%;
-    border: none;
+    border: 2px solid #f0f0f0;
     display: inline-block;
-    margin: 5px  0px 22px 0px;
-    padding: 10px;
-    border-radius: 5px;
+    margin-bottom: 2px;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+    
 
 }
 
-input[type="subject"],type[type=text]{
-    width: 50%;
-    border: none;
+input[type="subject"],input[type=checkbox]{
+    width: 10%;
     display: inline-block;
-    margin: 5px  0px 22px 0px;
-    padding: 10px;
-    border-radius: 5px;
+    border-radius: 4px;
 
 }
+input[type=text],select,textarea{
+    padding: 10px 20px 30px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 20px;
+    resize: none;
+
+    } 
         
 
 #column-left{
@@ -266,17 +300,7 @@ padding-top: 50%;
    
   }
   
-  input[type=text],select,textarea{
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 10px;
-    margin-bottom: 16px;
-    resize: none;
-
-    } 
-
+  
     .fa{
         padding: 20px;
         font-size: 20px;
