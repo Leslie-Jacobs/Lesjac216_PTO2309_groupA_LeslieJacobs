@@ -93,7 +93,7 @@ h1, h2, h6, p{
   
  }
  
- #headrow{
+ #head-row{
     background-image: url(/Images/pawel-czerwinski-WsbLhnKj4b4-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -140,7 +140,7 @@ height: 90pc;
 
 .contact{
    
-    width: 118pc;
+    width:auto;
     color:black;
     text-align:left;
     padding:0%;
@@ -150,10 +150,10 @@ height: 90pc;
 .container{
 
     background-color: #f2f2f2;
-    margin-left: 500px;
-    margin-right: 800px;
-    text-align: left;
-    padding-left: 50px; 
+    border-color: #494949;
+    width: 35%;
+    margin-left: 35%;
+   
   }
   #msg{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 margin-left: 5px;
