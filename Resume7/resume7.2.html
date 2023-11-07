@@ -9,7 +9,7 @@
 
 
         <link rel="shortcut icon" type="image/x-icon" href="/Images/favicon.ico">
-        <link rel="stylesheet" href="CSS/resume7.1.css">
+        <link rel="stylesheet" href="/Resume7/CSS/resume7.2.css">
 <!---Google Fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -59,9 +59,9 @@
                 <h2>Skills</h2>
 <!--Skills under image-->                  
                 <ul>  
-                    <li>Skill 1 </li>
-                    <li>Skill 2</li>
-                    <li>Skill 3</li>
+                    <li>Skill 1 </li><br>
+                    <li>Skill 2</li><br>
+                    <li>Skill 3</li><br>
                     <li>Skill 4 </li>
                 </ul>
                
@@ -116,34 +116,35 @@
 <!--form section-->
 <footer class="contact">
     <div class="container">
+        <h1 id="msg">Send a Message</h1>
           <form action="https://formsubmit.co/lkjlesliejade@gmail.com" method="POST">
    
-    <label for="fname"><i class="fa fa-user icon"></i>Name</label>
+    <label for="fname"><i class="fa fa-user icon"></i></label>
             <input type="text" name="Name" id="fname" placeholder="Enter Name">
             <br>
             
-       <label for="email"> <i class="fa fa-envelope icon"></i>Email</label>
-      
+       <label for="email"> <i class="fa fa-envelope icon"></i>
             <input type="text" name="email" id="email" placeholder="Email here" required>
             <br>
             <br>
+            
 <!--checkboxes-->
 
-<label for="checkbox_subject">Subject<br>
+<label for="checkbox_subject">Subject<br><br>
         <input type="checkbox"  id="checkbox_subject"  name="resumefeedback">Resume Feedback<br>
-</label>
+</label><br>
 
 <label for="checkbox_interview">
         <input type="checkbox" id="checkbox_interview"  name="Interview">Interview<br>
-</label>
+</label><br>
 
 <label for="checkbox_recruiter">
         <input type="checkbox"  id="checkbox_recruiter"  name="recruiter">Recruiter<br>
 </label>
 
- <br>
+ 
   <!--textarea for message-->              
-<label for="textarea">Your Message<br>
+<label for="textarea">
 
 <br>
     <textarea placeholder="Your Message (optional)..." id="textarea" name="Message" rows="10" cols="50"></textarea>
@@ -156,7 +157,7 @@
           <button type="submit" class="submit" value="Submit" id="submitbtn">Submit</button>
 
 <label for="resetbtn"></label> 
-          <button type="reset" class="reset" value="Reset" id="resetbtn">Reset</button>      
+          <button type="reset" class="cancel" value="Cancel" id="cancelbtn">Cancel</button>      
           
         </form>
         </div>
