@@ -89,8 +89,17 @@ h1, h2, h6, p{
  .image-container {
     padding:10%;
     overflow:visible;
-    background-color: #423d36;
-    background-image: url();
+
+  
+ }
+ 
+ #headrow{
+    background-image: url(/Images/pawel-czerwinski-WsbLhnKj4b4-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50%;
+    background-size: cover;
+    position: relative;
   
  }
 
@@ -225,11 +234,12 @@ padding-top: 50%;
 .column {
     float: left;
     width: 30%;
-    height: 30%;
+
     background-color: white;
-    
 
   }
+
+
 
   .column-right {
     margin-top:0%;
