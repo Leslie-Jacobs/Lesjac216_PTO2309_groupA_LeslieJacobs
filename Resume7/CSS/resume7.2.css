@@ -37,7 +37,7 @@ h1, h2, h6, p{
     width: 100%;
     text-align: center; 
     position: relative; 
-    top:100%;
+
 
 }
 #language{
@@ -64,14 +64,6 @@ h1, h2, h6, p{
     font-weight: bolder;
 }
 
-
-.content,.header-text{
-    margin:0;
-    position: relative;
-    margin-bottom: 10%;
-
-  
-}
 #navbar{
         background-color: #b9b9b9;
         width: 100%;
@@ -91,8 +83,6 @@ nav a:hover{
     font-weight: bolder;
 }
 
-
-
 #back-to-top {
     color: white;
     background-color:#423d36;
@@ -111,7 +101,7 @@ nav a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 50%;
+    height: 70%;
     padding-top: 10%;
   
  }
