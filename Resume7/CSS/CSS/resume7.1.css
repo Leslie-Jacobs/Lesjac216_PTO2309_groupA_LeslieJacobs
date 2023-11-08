@@ -1,12 +1,10 @@
-
-
 body{ 
+    padding-top: 3%;
     background-color: #423d36;
-    margin:0;
-    width:100%;
- height: 100vh;
-    
+    margin:0%;
+    width: auto;
 }
+
 h1, h2, h6, p{
     font-family:'Manrope', sans-serif;
  
@@ -19,47 +17,29 @@ h1, h2, h6, p{
     margin-right: 100px;
 }
 
-#experience{
-        width: 100%;
-        float: right;    
-        color: white;
-        padding-top: 0;}
-    
 
 #name{
  
    color: white;
-    margin-top:0;
-    margin-bottom:50% ;
+    display:inline-block;
+    padding-top:50px;
+    padding-bottom:50px ;
+    padding-left: 100px;
+    margin-right:100px;
+    margin-left: 200px;
     font-size: 90px;
     font-family:'Times New Roman', Times, serif;
-    position:relative;
-   
     }
 
 #about-me{
     font-size: 25px;
     font-weight: bolder;
     background-color: #9a684b;
+    text-align: center;
     width: 100%;
-    text-align: center; 
-    position: relative; 
-    top:100%;
-
-}
-#language{
-    font-size: 25px;
-    font-weight: bolder;
-    background-color: #9a684b;
-    width: 100%;
-    text-align: center;  
 }
 
-.main-image{
-    margin-left: 40px;
-    margin-top: 80px;
-    margin-bottom: 0;
-}
+
 
 .nav-link{
     display: inline-block;
@@ -72,14 +52,7 @@ h1, h2, h6, p{
 }
 
 
-.content,.header-text{
-    margin:0;
-    position: relative;
-    top:50%;
-    margin-bottom: 10%;
 
-  
-}
 #navbar{
         background-color: #b9b9b9;
         width: 100%;
@@ -89,17 +62,10 @@ h1, h2, h6, p{
         position: fixed;
         top: 0;
         left: 0;
-        text-align: center;     
+        text-align: center;
+        
       
 }
-nav a:hover{
-    color: #f1c40f;
-    border-bottom: 4px solid #f1c40f;
-    transition: 0.5s;
-    font-weight: bolder;
-}
-
-
 
 #back-to-top {
     color: white;
@@ -113,14 +79,13 @@ nav a:hover{
     right: 80px;
     bottom: 80px;
 }
- #head-row{
-    background-image: url(/Images/pawel-czerwinski-WsbLhnKj4b4-unsplash.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 90%;
-    
+
+
+ 
+ .image-container {
+    padding:10%;
+    overflow:visible;
+    background-color: #423d36;
   
  }
 
@@ -130,7 +95,6 @@ padding: 10%;
 height:850px;
 padding-top: 20%;
 height: 90pc;
-background-color: #fff;
 
     
 }
@@ -147,7 +111,8 @@ background-color: #fff;
     border: 1px solid white;
     border-radius: 50%;
     overflow-x: visible;
-
+ 
+  
 }
 
   
@@ -161,96 +126,67 @@ background-color: #fff;
 
 .contact{
    
-    width:auto;
+    width: 118pc;
     color:black;
-    position: relative;
-    padding:30px 40px;
+    text-align:left;
+    padding:0%;
     font-size: 15px;
-    background-color: #000;
-
+    background-color: #fff;
 }
 .container{
 
     background-color: #f2f2f2;
-    border-color: #494949;
-    width: 35%;
-    margin-left: 35%;
-    justify-content: center;
-    font-family: 'Montserrat', sans-serif;
-    
-   
+    margin-left: 500px;
+    margin-right: 800px; 
   }
-  #msg{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        margin-left: 5px;
-        background-color: #f7f7f7;
-        border-bottom:1px solid #f0f0f0;
-        padding: 20px  40px;
-        margin: 0;
-    
-  }
-
 button[type=submit] {
     background-color: #333;
     color: #fff;
-    padding: 12px 20px ;
+    padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     border-radius: 5px;
-    margin-left: 15px;
-    margin-bottom: 15px;
 }
 button[type=reset] {
     background-color: #333;
     color: #fff;
     padding: 12px 20px;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: 30px;
-}
+    border-radius: 4px;
+    cursor: pointer;}
 
-button[type=submit]:hover {
+input[type=submit]:hover {
         background-color: #333;
         opacity: 0.4;
     }
-button[type=reset]:hover {
+input[type=reset]:hover {
         background-color: #333;
         opacity: 0.4;
     }
 label{
     display: inline;
-    margin-top: 2.5rem;
+    margin-top: 2.5em;
 }
 input[type="email"],input[type=text], input[type=name] {
     width: 50%;
-    border: 2px solid #f0f0f0;
+    border: none;
     display: inline-block;
-    padding: 5px;
-    border-radius: 4px;
-    font-size: 14px;
-    
-
-}
-
-input[type="subject"],input[type=checkbox]{
-    width: 10%;
-    display: inline-block;
-    border-radius: 4px;
-
-}
-input[type=text],select,textarea{
+    margin: 5px  0px 22px 0px;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: 20px;
-    resize: none;
+    border-radius: 5px;
 
-    } 
+}
+
+input[type="subject"],type[type=text]{
+    width: 50%;
+    border: none;
+    display: inline-block;
+    margin: 5px  0px 22px 0px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
         
 
 #column-left{
@@ -267,20 +203,27 @@ padding-top: 50%;
     width: 100%;
 }
 
+.header-text {
+  right: 100%;
+    margin-left: 40%;
+    float: right;
+}
 
 .column {
     float: left;
     width: 30%;
-     }
+    height: 30%;
+    background-color: white;
+    
 
-
+  }
 
   .column-right {
-      width: 32%;
-      float: right;    
-      color: white;
-    padding-top: 0;}
-
+    margin-top:0%;
+      width: 55%;
+      float: left;
+      padding-right:10%;
+      color: white;}
   
 
   
@@ -288,21 +231,32 @@ padding-top: 50%;
   /* Clear floats after the columns */
   .row::after {
     content: "";
-    display:table;
+    display: table;
     clear: both;
-   
+  }
+  .row{
+    height: 50%;
   }
   .content {
-      padding-right: 20%;
-      padding-left: 10px;
+      padding-right: 80px;
+      padding-left: 80px;
       overflow-wrap: normal;
       text-align: justify;
       margin-bottom: 0%;
-    
    
   }
   
-  
+  input[type=text],select,textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    resize: none;
+
+    } 
+
     .fa{
         padding: 20px;
         font-size: 20px;
