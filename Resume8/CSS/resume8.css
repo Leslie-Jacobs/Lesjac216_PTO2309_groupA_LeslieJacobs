@@ -329,121 +329,120 @@ textarea {
   margin-right: 100px;
 }
 
-/* MEDIA QUERY */
-/*Mobile Styling*/
+/* MEDIA QUERIES */
+
+/* MOBILE STYLING */
 /*  styles for mobile devices portrait mode */
 @media only screen and (max-width: 600px) {
-  /*navbar*/
-  .nav-link{
+  /* navbar */
+  .nav-link {
     padding: 10px;
-
-    margin:0px;
+    
+    margin: 0px;
+    
   }
-  /*profile image*/
-  #shoulder-image{
+  /* profile image */
+  #shoulder-image {
     visibility: hidden;
-    margin-bottom: -300px;
-  
+   margin-bottom: -300px;
   }
-
   #waist-up-image {
     visibility: visible;
     margin-left: 50px;
-    margin-top: 30px;
+    margin-top: 100px
    }
+   /* Name */
+    #name {
+      font-size: 50px;
+      padding-top: 30px;
+    }
 
-   /*name*/
-
-   #name {
-    padding-top: 30px;
-    font-size: 50px;
-  }
-
-  /*about-me*/
-  .section-header{
-    font-size:20px ;
+  /* About me */
+  .section-header {
+    font-size: 20px;
     margin-right: 0px;
+    
   }
-
-    .content{
-    padding-right:40px ;
+  .content {
+    padding-right: 40px;
     padding-left: 40px;
     overflow-wrap: normal;
     text-align: justify;
     margin-bottom: 0%;
-    }
-
-    /*skills*/
-#skills{
-  padding-top: 50px;
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
-  padding: 0px;
-  margin: 0px;
-}
-
-ul{
-  list-style-type: none;/*remove bullet points*/
-  padding: 0px;
-  padding-bottom: 10px;
-  margin: 0px;
-}
-.skills h2{
-  background-color: #9a684b;
-  text-align: center;
-  /*width:100%*/
-  font-size: x-large;
-  padding-bottom: 5px;
-}
-
-/*language*/
-.ability-container{
-  padding-top: 50px;
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
-  padding-right: 40px;
-  padding-left: 40px;
-  margin: 0px;
-}
-#language{
-  background-color: #9a684b;
-  text-align: center;
-  width: 100%;
-  font-size: x-large;
-  padding-bottom: 5px;
-}
-.language-bullets{
-  padding-top:10px; 
-  padding-bottom: 10px;
-}
-
-/*certificates*/
-.certificate-bullets{
-  padding-top: 10px;
-  padding-bottom: 10px;
-
-}
-/*references*/
-.reference-bullets{
-  padding-top: 10px;
-  padding-bottom: 10px;
-
-}
-/*education and experience*/
-h3{
-  text-align: center;
-}
-
-/*footer,contact*/
-.container{
-  padding-left: 50px;
-  padding-right: 50px;
-}  
   }
-  /*end of mobile styling*/
 
+/* Skills */
+  #skills {
+    padding-top: 50px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px
+  }
+
+  ul{
+    list-style-type: none; /*remove bullet points*/
+    padding: 0px;
+    padding-bottom: 10px;
+    margin: 0px
+  }
+  .skills h2{
+    background-color: #9a684b;
+    text-align: center;
+    /* width: 100%; */
+    font-size: x-large;
+    padding-bottom: 5px;
+  }
+
+/* language */
+  .ability-container{
+    padding-top: 50px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin: 0px
+
+  }
+  #language{
+    background-color: #9a684b;
+    text-align: center;
+    width: 100%;
+    font-size: x-large;
+    padding-bottom: 5px;
+  }
+  .language-bullets{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+
+  /* certificates */
+  .certificate-bullets{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* references */
+  .references-bullets{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* education and experience */
+    h3{
+      text-align: center;
+    }
+  /* footer */
+  /* contact */
+  .container{
+    padding-left:50px;
+    padding-right: 50px;
+  }
+}
+/* EMD OF MOBILE STYLING 
 
 /* tablet styling*/
 /*styles for tablet devices*/
