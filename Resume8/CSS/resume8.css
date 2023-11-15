@@ -1,3 +1,4 @@
+/* GLOBAL STYLING */
 body {
   background-color: #423d36;
   margin: 0;
@@ -22,31 +23,6 @@ body {
   position: relative;
 }
 
-#about-me {
-  font-size: 25px;
-  font-weight: bolder;
-  background-color: #9a684b;
-  width: 100%;
-  text-align: center;
-  position: relative;
-}
-
-#language {
-  font-size: 25px;
-  font-weight: bolder;
-  background-color: #9a684b;
-  width: 100%;
-  text-align: center;
-}
-.language-container {
-  padding-top: 50px;
-}
-
-.main-image {
-  margin-left: 40px;
-  /* margin-top: 80px; */
-  margin-bottom: 0;
-}
 
 .nav-link {
   display: inline-block;
@@ -90,21 +66,6 @@ nav a:hover {
   bottom: 80px;
 }
 
-#head-row {
-  background-image: url(../Images/pawel-czerwinski-WsbLhnKj4b4-unsplash.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  height: 70%;
-  padding-top: 10%;
-}
-
-#skills {
-  padding-top: 50px;
-  height: 250vh;
-  background-color: #fff;
-}
 #certificate {
   font-size: 25px;
   font-weight: bolder;
@@ -112,12 +73,15 @@ nav a:hover {
   width: 100%;
   text-align: center;
 }
+
 #references {
   font-size: 25px;
   font-weight: bolder;
   background-color: #9a684b;
+  width: 100%;
   text-align: center;
 }
+
 .skills h2 {
   font-size: 25px;
   background-color: #9a684b;
@@ -139,150 +103,11 @@ nav a:hover {
   color: wheat;
 }
 
-.contact {
-  width: auto;
-  color: white;
-  position: relative;
-  padding: 30px 40px;
-  font-size: 15px;
-  background-color: #000;
-}
-
-.container {
-  background-color: #000;
-  border-color: #494949;
-  width: 35%;
-  margin-left: 35%;
-  justify-content: center;
-  font-family: "Montserrat", sans-serif;
-}
-
-#msg {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-left: 5px;
-  background-color: #000;
-  border-bottom: 1px solid #f0f0f0;
-  padding: 20px 40px;
-  margin: 0;
-}
-
-.contact-input {
-  color: #fff;
-  background-color: #000;
-  border-color: #fff;
-}
-
-.required {
-  padding-left: 5px;
-  display: inline;
-  color: red;
-}
-
-button[type="submit"] {
-  background-color: #333;
-  color: #fff;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  border-radius: 5px;
-  margin-left: 15px;
-  margin-bottom: 15px;
-}
-
-button[type="reset"] {
-  background-color: #333;
-  color: #fff;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-left: 30px;
-}
-
-button[type="submit"]:hover {
-  background-color: #333;
-  opacity: 0.4;
-}
-
-button[type="reset"]:hover {
-  background-color: #333;
-  opacity: 0.4;
-}
-
-label {
-  display: inline;
-  margin-top: 2.5rem;
-}
-
-input[type="email"],
-input[type="text"],
-input[type="name"] {
-  width: 50%;
-  border: 2px solid #f0f0f0;
-  display: inline-block;
-  padding: 5px;
-  border-radius: 4px;
-  font-size: 14px;
-}
-
-input[type="subject"],
-input[type="checkbox"] {
-  width: 10%;
-  display: inline-block;
-  border-radius: 4px;
-}
-
-input[type="text"],
-select,
-textarea {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  margin-left: 20px;
-  resize: none;
-}
-
-.column-left {
-  float: left;
-  width: 30vw;
-  height: 300px;
-}
-
-.header {
-  position: relative;
-  width: 100%;
-}
-
-.column {
-  float: left;
-  width: 30%;
-}
 
 .column-right {
-  width: 60%;
-  float: right;
   color: white;
-  padding-top: 0;
 }
 
-/* Clear floats after the columns */
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.content {
-  padding-right: 2%;
-  padding-left: 2%;
-  overflow-wrap: normal;
-  text-align: justify;
-  margin-bottom: 0%;
-}
 .fa {
   padding: 20px;
   font-size: 20px;
@@ -317,10 +142,6 @@ textarea {
   margin-right: 20px;
 }
 
-.content-section {
-  padding-bottom: 50px;
-  padding-top: 25px;
-}
 
 .section-header {
   background-color: #9a684b;
@@ -329,40 +150,54 @@ textarea {
   margin-right: 100px;
 }
 
-/* MEDIA QUERIES */
+/* END OF GLOBAL STYLING */
 
-/* MOBILE STYLING */
+
+/*=======MEDIA QUERIES======*/
+
+/*=========MOBILE STYLING========*/
+
 /*  styles for mobile devices portrait mode */
 @media only screen and (max-width: 600px) {
-  /* navbar */
+
+  /*======HEADER-SECTION======*/
+
+  /* NAV-BAR */
   .nav-link {
     padding: 10px;
-    
+
     margin: 0px;
-    
+
   }
+
   /* profile image */
   #shoulder-image {
     visibility: hidden;
-   margin-bottom: -300px;
+    margin-bottom: -300px;
   }
+
   #waist-up-image {
     visibility: visible;
-    margin-left: 50px;
-    margin-top: 100px
-   }
-   /* Name */
-    #name {
-      font-size: 50px;
-      padding-top: 30px;
-    }
+    width: 200px;
+    height: 200px;
+    margin-left: 150px;
+    margin-top: 100px;
+
+  }
+
+  /* Name */
+  #name {
+    font-size: 50px;
+    padding-top: 30px;
+  }
 
   /* About me */
   .section-header {
     font-size: 20px;
     margin-right: 0px;
-    
+
   }
+
   .content {
     padding-right: 40px;
     padding-left: 40px;
@@ -371,7 +206,10 @@ textarea {
     margin-bottom: 0%;
   }
 
-/* Skills */
+  /*======END OF HEADER SECTION======*/
+
+  /*======SKILLS ABILITY CONTAINER======*/
+  /* Skills */
   #skills {
     padding-top: 50px;
     color: #fff;
@@ -381,13 +219,15 @@ textarea {
     margin: 0px
   }
 
-  ul{
-    list-style-type: none; /*remove bullet points*/
+  ul {
+    list-style-type: none;
+    /*remove bullet points*/
     padding: 0px;
     padding-bottom: 10px;
     margin: 0px
   }
-  .skills h2{
+
+  .skills h2 {
     background-color: #9a684b;
     text-align: center;
     /* width: 100%; */
@@ -395,8 +235,8 @@ textarea {
     padding-bottom: 5px;
   }
 
-/* language */
-  .ability-container{
+  /* language */
+  .ability-container {
     padding-top: 50px;
     color: #fff;
     text-align: center;
@@ -404,220 +244,210 @@ textarea {
     padding-right: 40px;
     padding-left: 40px;
     margin: 0px
-
   }
-  #language{
+
+  #language {
     background-color: #9a684b;
     text-align: center;
     width: 100%;
     font-size: x-large;
     padding-bottom: 5px;
   }
-  .language-bullets{
+
+  .language-bullets {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  
+
 
   /* certificates */
-  .certificate-bullets{
+  .certificate-bullets {
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
   /* references */
-  .references-bullets{
+  .references-bullets {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /*======END OF SKILLS ABILITY CONTAINER======*/
+
+  /* education and experience */
+  h3 {
+    text-align: center;
+  }
+
+  /*=======END OF EDUCATION AND EXPERIENCE SECTION=======*/
+
+  /*FOOTER*/
+
+  .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  /*======END OF FOOTER STYLING*/
+}
+
+/*======END OF MOBILE STYLING=======*/
+
+
+/*  TABLET STYLING */
+/* styles for tablet devices */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+  /*=====Profile Image =====*/
+  #shoulder-image {
+    visibility: hidden;
+  }
+
+  #waist-up-image {
+    visibility: visible;
+    width: 200px;
+    height: 200px;
+  }
+
+  /*======END OF PROFILE =======*/
+
+  /*=====NAME=====*/
+  #name {
+    font-size: 50px;
+    padding-top: 30px;
+  }
+/*=====END OF NAME SECTION=======*/
+/*=====ABOUT ME=======*/
+  .section-header {
+    font-size: 20px;
+    margin-right: 0px;
+  }
+/*=======END OF ABOUT ME========*/
+
+  .content {
+    padding-right: 40px;
+    padding-left: 40px;
+    overflow-wrap: normal;
+    text-align: justify;
+    margin-bottom: 0%;
+  }
+
+  /* Skills */
+  #skills {
+    padding-top: 50px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px
+  }
+
+  ul {
+    list-style-type: none;
+    /*remove bullet points*/
+    padding: 0px;
+    padding-bottom: 10px;
+    margin: 0px
+  }
+
+  .skills h2 {
+    background-color: #9a684b;
+    text-align: center;
+    /* width: 100%; */
+    font-size: x-large;
+    padding-bottom: 5px;
+  }
+
+  /* language */
+  .ability-container {
+    padding-top: 50px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin: 0px
+  }
+
+  #language {
+    background-color: #9a684b;
+    text-align: center;
+    width: 100%;
+    font-size: x-large;
+    padding-bottom: 5px;
+  }
+
+  .language-bullets {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+
+  /* certificates */
+  .certificate-bullets {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* references */
+  .references-bullets {
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
   /* education and experience */
-    h3{
-      text-align: center;
-    }
-  /* footer */
-  /* contact */
-  .container{
-    padding-left:50px;
-    padding-right: 50px;
-  }
-}
-/* EMD OF MOBILE STYLING 
-
-/* tablet styling*/
-/*styles for tablet devices*/
-@media only screen and (min-width: 601px) and (max-width:1024px) {
-  #shoulder-image {
-    visibility: hidden;
-    margin-bottom: -300px;
-  }
-  #waist-up-image {
-    visibility: visible;
-    margin-left:50px;
-    margin-top:0px;
-    width:150px;
-    height: 150px;
-    margin-bottom: 40px;
-  }
-  /* Name */
-  #name {
-    font-size: 40px;
-    padding-top: 10px;
-    margin-bottom: 0px;
-  }
-
-/* About me */
-.section-header {
-  font-size: 15px;
-  margin-right: 0px;
-  
-}
-.content {
-  padding-right: 40px;
-  padding-left: 40px;
-  overflow-wrap: normal;
-  text-align: justify;
-  margin-bottom: 0%;
-  font-size: 12px;
-}
-
-/* Skills */
-#skills {
-  padding-top: 50px;
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
-  padding: 0px;
-  margin: 0px
-}
-
-.column{
-float: none;
-width:30%;
-
-  
-}
-.fa{
-  margin-left: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-.socials{
-  margin: 0px;
-  padding: 0px;
-}
-.skills h2{
-  background-color: #9a684b;
-  text-align: center;
-  /* width: 100%; */
-  font-size: x-large;
-  padding-bottom: 5px;
-}
-
-/* language */
-.ability-container{
-  padding-top: 0px;
-  color: #000;
-  text-align: center;
-  text-decoration: none;
-  padding-right: 40px;
-  padding-left: 40px;
-  margin: 0px;
-
-}
-#language{
-  background-color: #9a684b;
-  text-align: center;
-  width: 100%;
-  font-size: x-large;
-  padding-bottom: 5px;
-}
-.language-bullets{
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-
-/* certificates */
-.certificate-bullets{
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-/* references */
-.references-bullets{
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-/* education and experience */
-  h3{
+  h3 {
     text-align: center;
   }
 
-  #education{
-    padding-top: 0%;
-    width:70%;
-    margin-top:0%;
-  
+  /* footer */
+  /* contact */
+  .container {
+    padding-left: 50px;
+    padding-right: 50px;
   }
-  #experience{
-    width:70%;
-    float: none;
-  }
-  .column-right{
-    margin-top:-750px;
-    
-
-  }
-/* footer */
-/* contact */
-.container{
-  padding-left:50px;
-  padding-right: 50px;
 }
 
-}
-/* END OF TABLET STYLING */
 /* END OF TABLET STYLING */
 
-  /* DESKTOP STYLING */
+/* DESKTOP STYLING */
 /* desktop/laptop */
-@media only screen and (min-width: 992px){
-  
+@media only screen and (min-width: 992px) {
+
   .content-section {
     padding-bottom: 50px;
     padding-top: 25px;
   }
+
   .column-left {
     float: left;
     width: 30vw;
     height: 300px;
   }
-  
+
   .header {
     position: relative;
     width: 100%;
   }
-  
+
   .column {
     float: left;
     width: 30%;
   }
-  
+
   .column-right {
     width: 60%;
     float: right;
     padding-top: 0;
   }
-  
+
   /* Clear floats after the columns */
   .row::after {
     content: "";
     display: table;
     clear: both;
   }
-  
+
   .content {
     padding-right: 2%;
     padding-left: 2%;
@@ -625,49 +455,51 @@ width:30%;
     text-align: justify;
     margin-bottom: 0%;
   }
-    #shoulder-image {
-      visibility: visible;
-    }
-    #waist-up-image {
-      visibility: hidden;
-    }
-  
-    label {
-      display: inline;
-      margin-top: 2.5rem;
-    }
-    
-    input[type="email"],
-    input[type="text"],
-    input[type="name"] {
-      width: 50%;
-      border: 2px solid #f0f0f0;
-      display: inline-block;
-      padding: 5px;
-      border-radius: 4px;
-      font-size: 14px;
-    }
-    
-    input[type="subject"],
-    input[type="checkbox"] {
-      width: 10%;
-      display: inline-block;
-      border-radius: 4px;
-    }
-    
-    input[type="text"],
-    select,
-    textarea {
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      box-sizing: border-box;
-      margin-top: 16px;
-      margin-bottom: 16px;
-      margin-left: 20px;
-      resize: none;
-    }
-    
+
+  #shoulder-image {
+    visibility: visible;
+  }
+
+  #waist-up-image {
+    visibility: hidden;
+  }
+
+  label {
+    display: inline;
+    margin-top: 2.5rem;
+  }
+
+  input[type="email"],
+  input[type="text"],
+  input[type="name"] {
+    width: 50%;
+    border: 2px solid #f0f0f0;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+  input[type="subject"],
+  input[type="checkbox"] {
+    width: 10%;
+    display: inline-block;
+    border-radius: 4px;
+  }
+
+  input[type="text"],
+  select,
+  textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 20px;
+    resize: none;
+  }
+
   #head-row {
     background-image: url(../Images/pawel-czerwinski-WsbLhnKj4b4-unsplash.jpg);
     background-position: center;
@@ -677,13 +509,13 @@ width:30%;
     height: 70%;
     padding-top: 10%;
   }
-  
+
   #skills {
     padding-top: 50px;
     height: 250vh;
     background-color: #fff;
   }
-  
+
   #about-me {
     font-size: 25px;
     font-weight: bolder;
@@ -692,7 +524,7 @@ width:30%;
     text-align: center;
     position: relative;
   }
-  
+
   #language {
     font-size: 25px;
     font-weight: bolder;
@@ -700,15 +532,17 @@ width:30%;
     width: 100%;
     text-align: center;
   }
+
   .language-container {
     padding-top: 50px;
   }
-  
+
   .main-image {
     margin-left: 40px;
     /* margin-top: 80px; */
     margin-bottom: 0;
   }
+
   .contact {
     width: auto;
     color: white;
@@ -717,7 +551,7 @@ width:30%;
     font-size: 15px;
     background-color: #000;
   }
-  
+
   .container {
     background-color: #000;
     border-color: #494949;
@@ -726,7 +560,7 @@ width:30%;
     justify-content: center;
     font-family: "Montserrat", sans-serif;
   }
-  
+
   #msg {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     margin-left: 5px;
@@ -735,18 +569,51 @@ width:30%;
     padding: 20px 40px;
     margin: 0;
   }
-  
+
   .contact-input {
     color: #fff;
     background-color: #000;
     border-color: #fff;
   }
-  
+
   .required {
     padding-left: 5px;
     display: inline;
     color: red;
   }
 
-  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+
+  button[type="reset"] {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 30px;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #333;
+    opacity: 0.4;
+  }
+
+  button[type="reset"]:hover {
+    background-color: #333;
+    opacity: 0.4;
+  }
+
 }
+
+/* END OF DESKTOP STYLING */
