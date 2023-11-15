@@ -1,20 +1,19 @@
-Author: Leslie Jacobs
-Project name: Lesjac216_PTO2309_groupA_LeslieJacobs
+Author: Leslie Jacobs 
+Project name: Final Resume Website
+.
 
-I am currently learning Introduction to Web.
-I am currently working how to navigate my way through Git/Github ,also planning and designing my Final Capstone Project.
+Hi there 👋, My name is Leslie Jacobs
+I am a new student learning new skills @Code-space on how to become a successful Developer
+I made this repository to practice every learning aspect gained through CodeSpace.
 
-### Hi there 👋, My name is  Leslie Jacobs
-#### I am a new student learning new skills @Codespace on how to become a successful Developer
+Skills: HTML / CSS/ Figma
 
+🏋️ I've completed my Final Resume Capstone Project
+🌱 I’ve learned Introduction to Web and Programming Fundamentals
 
-I made this project to practice every learning aspect gained through CodeSpace.
+In this project/repository I used a cloud-based design tool such as Figma
+Below is a link to my wire-frame design
 
-**Skills:  HTML / CSS**
-
-- 🔭 I’m currently working on Final Resume Capstone Project 
-- 🌱 I’m currently learning Introduction to Web 
-
-In this project a cloud-based design tool is used such as Figma 
+https://www.figma.com/file/vH5rhLZnxW2RcvoocWG5a5/LeslieJacobs_lesjac216_PTO2309_GroupA_ITW9_Final_Digital_Resume_WireFrame_Figma?type=design&node-id=0%3A1&mode=design&t=PdYk04RPTwAAhWu9-1
 
 
