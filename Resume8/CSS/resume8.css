@@ -1,4 +1,4 @@
-/* GLOBAL STYLING */
+/*========GLOBAL STYLING=======*/
 body {
   background-color: #423d36;
   margin: 0;
@@ -150,27 +150,43 @@ nav a:hover {
   margin-right: 100px;
 }
 
-/* END OF GLOBAL STYLING */
+/*======END OF GLOBAL STYLING======*/
 
 
 /*=======MEDIA QUERIES======*/
 
 /*=========MOBILE STYLING========*/
 
-/*  styles for mobile devices portrait mode */
+/*styles for mobile devices portrait mode*/
 @media only screen and (max-width: 600px) {
 
   /*======HEADER-SECTION======*/
 
-  /* NAV-BAR */
+  /*NAV-BAR*/
   .nav-link {
-    padding: 10px;
-
-    margin: 0px;
-
+    padding-left: 0px;
+    margin-left: 0px;
   }
+  /*NAV-BAR*/
+  #navbar {
+    background-color: #b9b9b9;
+    width: 100%;
+    padding: 0%;
+    margin: 0px;
+    position: fixed;
+    text-align: center;
+  }
+  
+nav a:hover {
+  color: #000000;
+  border-bottom: 3px solid rgb(221, 160, 36);
+  transition: 0.5s;
+  font-weight: bolder;
+}
+/*======END NAV-BAR======*/
 
-  /* profile image */
+/*======PROFILE IMAGES=======*/
+
   #shoulder-image {
     visibility: hidden;
     margin-bottom: -300px;
@@ -178,44 +194,46 @@ nav a:hover {
 
   #waist-up-image {
     visibility: visible;
-    width: 200px;
-    height: 200px;
-    margin-left: 150px;
+    width: 150px;
+    height: 150px;
+    margin-left: 100px;
     margin-top: 100px;
-
   }
+/*======END PROFILE IMAGES======*/
 
-  /* Name */
+/*======NAME H1 STYLING======*/
+  
   #name {
-    font-size: 50px;
+    font-size: 25px;
     padding-top: 30px;
+    padding-right: 5px;
   }
+/*=======END NAME H1 STYLING======*/
 
-  /* About me */
+/*======ABOUT ME STYLING======*/
   .section-header {
     font-size: 20px;
     margin-right: 0px;
-
   }
-
   .content {
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 30px;
+    padding-left: 70px;
     overflow-wrap: normal;
     text-align: justify;
     margin-bottom: 0%;
   }
+ /*======END ABOUT ME STYLING======*/
 
   /*======END OF HEADER SECTION======*/
 
   /*======SKILLS ABILITY CONTAINER======*/
-  /* Skills */
+  
   #skills {
     padding-top: 50px;
     color: #fff;
     text-align: center;
     text-decoration: none;
-    padding: 0px;
+    padding-left: 50px;
     margin: 0px
   }
 
@@ -234,22 +252,23 @@ nav a:hover {
     font-size: x-large;
     padding-bottom: 5px;
   }
+/*======END SKILLS ABILITY CONTAINER======*/
 
-  /* language */
+/*======LANGUAGE ABILITY CONTAINER======*/
+ 
   .ability-container {
     padding-top: 50px;
     color: #fff;
     text-align: center;
     text-decoration: none;
-    padding-right: 40px;
-    padding-left: 40px;
-    margin: 0px
+    padding-left: 50px;
+    margin: 0px;
   }
 
   #language {
     background-color: #9a684b;
     text-align: center;
-    width: 100%;
+    /*width: 100%;*/
     font-size: x-large;
     padding-bottom: 5px;
   }
@@ -258,30 +277,33 @@ nav a:hover {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+/*======END LANGUAGE ABILITY CONTAINER======*/
 
+/*======CERTIFICATE CONTAINER=======*/
 
-  /* certificates */
   .certificate-bullets {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+/*======END CERTIFICATE CONTAINER=======*/
 
-  /* references */
+/*======REFERENCE CONTAINER=======*/
+  
   .references-bullets {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+/*======END CERTIFICATE CONTAINER=======*/
 
-  /*======END OF SKILLS ABILITY CONTAINER======*/
+/*======EDUCATION AND EXPERIENCE CONTAINER=======*/
 
-  /* education and experience */
   h3 {
     text-align: center;
   }
 
-  /*=======END OF EDUCATION AND EXPERIENCE SECTION=======*/
+  /*=======END EDUCATION AND EXPERIENCE SECTION=======*/
 
-  /*FOOTER*/
+  /*=======FOOTER======*/
 
   .container {
     padding-left: 50px;
@@ -298,7 +320,7 @@ nav a:hover {
 /* styles for tablet devices */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
 
-  /*=====Profile Image =====*/
+  /*=====PROFILE IMAGE =====*/
   #shoulder-image {
     visibility: hidden;
   }
@@ -322,7 +344,7 @@ nav a:hover {
     font-size: 20px;
     margin-right: 0px;
   }
-/*=======END OF ABOUT ME========*/
+
 
   .content {
     padding-right: 40px;
